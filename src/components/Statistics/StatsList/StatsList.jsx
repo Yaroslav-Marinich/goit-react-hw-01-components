@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import { ListStyle, ListItem, ItemLabel, ItemPerc } from './StatsList.styled';
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-}
+// function getRandomHexColor() {
+//   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+// }
 
 export const StatsList = ({ stats }) => {
   return (
