@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ListStyle = styled.ul`
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 export const ListItem = styled.li`
@@ -10,9 +10,13 @@ export const ListItem = styled.li`
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding: 6px 6px;
-  gap: 6px;
+  padding: 6px 10px;
+  background-color: ${statItem => getRandomHexColor()};
 `;
+
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+}
 
 export const ItemLabel = styled.span`
   color: ${props => props.theme.colors.textGrey};
