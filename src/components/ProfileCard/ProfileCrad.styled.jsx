@@ -61,5 +61,6 @@ export const Label = styled.span`
 
 export const Quantity = styled.span`
   font-weight: 700;
+  font-size: 20px;
   margin: 0 auto;
 `;
