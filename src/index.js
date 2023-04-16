@@ -10,6 +10,8 @@ const theme = {
     card: 'white',
     textGrey: '#808080',
     greyBg: '#d3d3d3',
+    offline: 'red',
+    online: 'green',
   },
 };
 
