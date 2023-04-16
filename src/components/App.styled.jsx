@@ -5,7 +5,6 @@ export const Div = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  max-width: 320px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 100px auto;

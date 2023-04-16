@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const FriendListUl = styled.ul`
   display: flex;
   flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
   gap: 10px;
 `;
 
