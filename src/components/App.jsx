@@ -12,7 +12,7 @@ export const App = () => {
   return (
     <Div>
       <ProfileCard item={user} />
-      <StatisticsCard stats={data} />
+      <StatisticsCard title={data.title} stats={data} />
       <FriendList friends={friends} />
       <TransTable transes={transaction} />
     </Div>

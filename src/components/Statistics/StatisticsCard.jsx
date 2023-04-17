@@ -6,7 +6,7 @@ import { StatsCard } from './StatisticsCard.styled';
 export const StatisticsCard = ({ title, stats }) => {
   return (
     <StatsCard>
-      <StatsTitle title={title} />
+      {{ title }.length > 0 && <StatsTitle title={title} />}
       <StatsList stats={stats} />
     </StatsCard>
   );
